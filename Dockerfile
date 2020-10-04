@@ -23,10 +23,10 @@ ADD root/.gitconfig /root/.gitconfig
 ADD root/.scripts /root/.scripts
 
 # Set environment variables.
-ENV HOME /root
+ENV HOME /
 
 # Define working directory.
-WORKDIR /root
+WORKDIR /
 
 # Define default command.
 USER www-data
